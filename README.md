@@ -15,9 +15,9 @@ yara64 --print-meta --print-strings --print-stats rules\upx.yara apps\app.exe
 ```
                                                                                                                                                                   
                                                                                                                                                                   
-Personally I use Yara with ImHex by putting all .yar files in "C:\Program Files\ImHex\yara"                                                                       
+Personally I use Yara with ImHex (hex viewer/editor) by putting all .yar files in "C:\Program Files\ImHex\yara"                                                                       
 
-It should look like this when a condition is met:                                                                                                           
+It should look like this when a condition is met (using ImHex):                                                                                                           
 ![image](https://user-images.githubusercontent.com/75084509/124402788-7f468a80-dd00-11eb-96e5-7fc80c2be011.png)
 
 # ImHex Info
