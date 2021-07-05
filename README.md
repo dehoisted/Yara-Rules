@@ -9,7 +9,7 @@ Source code: https://github.com/virustotal/yara
 Official download/release: https://github.com/virustotal/yara/releases
 
 # Usage
-Example of using yara (command line): 
+Example of using Yara (command line): 
 ``` 
 yara64 --print-meta --print-strings --print-stats rules\upx.yara apps\app.exe
 ```
