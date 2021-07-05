@@ -9,7 +9,7 @@ rule anti_vm {
        $s4 = "SYSTEM\\CurrentControlSet\\Control\\SystemInformation" nocase
        $s5 = "virtualbox" nocase
        $s6 = "vmware" nocase
-       $s6 = "innotek gmbh"
+       $s7 = "innotek gmbh"
        $s7 = "SystemManufacturer"
        $s8 = "SystemProductName"
        $vbox = "SOFTWARE\\Oracle\\VirtualBox Guest Additions" nocase ascii wide
