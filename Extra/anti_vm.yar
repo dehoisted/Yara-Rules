@@ -10,8 +10,8 @@ rule anti_vm {
        $s5 = "virtualbox" nocase
        $s6 = "vmware" nocase
        $s7 = "innotek gmbh"
-       $s7 = "SystemManufacturer"
-       $s8 = "SystemProductName"
+       $s8 = "SystemManufacturer"
+       $s9 = "SystemProductName"
        $vbox = "SOFTWARE\\Oracle\\VirtualBox Guest Additions" nocase ascii wide
     condition:
         any of them
