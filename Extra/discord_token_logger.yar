@@ -8,6 +8,7 @@ rule Discord_Token_Logger {
         $path3 = "\\Google\\Chrome\\User Data\\Default\\Local Storage\\leveldb"
         $path4 = "\\BraveSoftware\\Brave-Browser\\User Data\\Default\\Local Storage\\leveldb"
         $lb = "\\Local Storage\\leveldb"
+        $webhook = "https://discord.com/api/webhooks"
     condition:
         any of them
 }
